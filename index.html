@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dokumen SRS - Aplikasi Mobile Pencatat Ide Proyek Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Software Requirements Specification (SRS)</h1>
+  <h2>Aplikasi Mobile Pencatat Ide Proyek / Penelitian Mahasiswa</h2>
+
+  <section>
+    <h3 class="section-title">1. Pendahuluan</h3>
+    <p>
+      Dokumen ini menjelaskan spesifikasi kebutuhan perangkat lunak untuk aplikasi mobile yang bertujuan
+      membantu mahasiswa mencatat dan mengelola ide proyek atau penelitian secara efisien.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="section-title">2. Tujuan</h3>
+    <p>
+      Tujuan dari sistem ini adalah menyediakan platform bagi mahasiswa untuk mencatat, menyusun, 
+      dan mengelola ide-ide proyek atau penelitian yang dapat diakses secara mobile dan tersinkronisasi.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="section-title">3. Lingkup Aplikasi</h3>
+    <p>
+      Aplikasi akan memiliki fitur pencatatan ide, pengelompokan berdasarkan kategori atau status, 
+      penambahan referensi atau lampiran, sinkronisasi cloud, serta pengingat dan riwayat perubahan.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="section-title">4. Deskripsi Umum</h3>
+    <ul>
+      <li><strong>Pengguna utama:</strong> Mahasiswa</li>
+      <li><strong>Platform:</strong> Android dan iOS</li>
+      <li><strong>Teknologi:</strong> Flutter, Firebase (untuk autentikasi dan sinkronisasi data)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="section-title">5. Fitur Utama</h3>
+    <ul>
+      <li>Mencatat ide proyek atau penelitian</li>
+      <li>Membuat kategori atau tag untuk ide</li>
+      <li>Menambahkan referensi atau tautan</li>
+      <li>Upload file (gambar, PDF, dll)</li>
+      <li>Sinkronisasi dengan cloud</li>
+      <li>Riwayat perubahan/catatan versi</li>
+      <li>Pengingat jadwal atau tenggat waktu</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="section-title">6. Kebutuhan Fungsional</h3>
+    <ul>
+      <li>Pengguna dapat membuat, mengedit, dan menghapus ide</li>
+      <li>Pengguna dapat login dan logout</li>
+      <li>Pengguna dapat menyaring dan mencari ide berdasarkan kategori atau kata kunci</li>
+      <li>Pengguna dapat mengatur pengingat untuk ide tertentu</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="section-title">7. Kebutuhan Non-Fungsional</h3>
+    <ul>
+      <li>Antarmuka pengguna yang responsif dan mudah digunakan</li>
+      <li>Keamanan data pengguna melalui autentikasi dan enkripsi</li>
+      <li>Performa cepat, bahkan dengan banyak ide tersimpan</li>
+      <li>Ketersediaan layanan cloud minimal 99%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="section-title">8. Batasan</h3>
+    <p>
+      Aplikasi membutuhkan koneksi internet untuk sinkronisasi data. Fitur unggah file dibatasi ukuran maksimal 10MB.
+    </p>
+  </section>
+
+  <section>
+    <h3 class="section-title">9. Asumsi dan Ketergantungan</h3>
+    <ul>
+      <li>Pengguna memiliki akun mahasiswa aktif</li>
+      <li>Perangkat mobile mendukung sistem operasi Android 8+ atau iOS 13+</li>
+      <li>Koneksi internet stabil tersedia saat sinkronisasi</li>
+    </ul>
+  </section>
+
+</body>
+</html>
